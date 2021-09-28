@@ -15,7 +15,7 @@ export default function Landing(): ReactElement {
   return (
     <div className="landing-page bg-white pt-24">
       <Header />
-      <div className="hero relative" style={{backgroundImage: `url(${hero})`, backgroundRepeat: 'no-repeat', height: '720px'}}>
+      <div className="hero relative" style={{backgroundImage: `url(${hero})`, backgroundRepeat: 'no-repeat', height: '720px', backgroundSize: 'cover'}}>
         <button className="btn-black bg-black w-40 font-base text-white py-3 absolute bottom-44 left-40 rounded">Mint now</button>
       </div>
       <div className="flex justify-between items-center px-28 py-32">
@@ -24,7 +24,7 @@ export default function Landing(): ReactElement {
         <a href="/"><img alt="linkImage3" src={linkImage3}></img></a>
         <a href="/"><img alt="linkImage4" src={linkImage4}></img></a>
       </div>
-      <div className="art relative" style={{backgroundImage: `url(${art})`, backgroundRepeat: 'no-repeat', height: '800px'}}>
+      <div className="art relative" style={{backgroundImage: `url(${art})`, backgroundRepeat: 'no-repeat', height: '800px', backgroundSize: '100%'}}>
         <h3 className="text-center mt-48 text-white absolute top-4 text-8xl w-full font-black">Collection <br/>Title</h3>
       </div>
       <div className="blog-group flex justify-between items-center px-40 py-16 w-full">
